@@ -1,0 +1,12 @@
+.head{
+    color: cadetblue;
+    text-align: center
+}
+
+.main{
+    margin-left: 50px;
+    width: 500x;
+    border:50px solid black;
+    padding: 50px;
+background-color: darkgrey
+}

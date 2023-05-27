@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="head">calculator</h1>
+    <div class="main">
+            <input type="text" id="num1"> <!-- Added id attribute -->
+            <select id="operator"> <!-- Added closing tag -->
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input id="num2">
+            <button onclick="calculator()">submit</button> <!-- Added onclick attribute -->
+            <p id="result"></p> <!-- Added result element -->
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
